@@ -10,12 +10,15 @@
 		E5240B192BF7AD8E00D0D024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B182BF7AD8E00D0D024 /* AppDelegate.swift */; };
 		E5240B1B2BF7AD8E00D0D024 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B1A2BF7AD8E00D0D024 /* SceneDelegate.swift */; };
 		E5240B1D2BF7AD8E00D0D024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B1C2BF7AD8E00D0D024 /* ViewController.swift */; };
-		E5240B202BF7AD8E00D0D024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5240B1E2BF7AD8E00D0D024 /* Main.storyboard */; };
 		E5240B222BF7AD8F00D0D024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5240B212BF7AD8F00D0D024 /* Assets.xcassets */; };
 		E5240B252BF7AD8F00D0D024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5240B232BF7AD8F00D0D024 /* LaunchScreen.storyboard */; };
 		E5240B302BF7AD9000D0D024 /* DidTheyWinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B2F2BF7AD9000D0D024 /* DidTheyWinTests.swift */; };
 		E5240B3A2BF7AD9000D0D024 /* DidTheyWinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B392BF7AD9000D0D024 /* DidTheyWinUITests.swift */; };
 		E5240B3C2BF7AD9000D0D024 /* DidTheyWinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B3B2BF7AD9000D0D024 /* DidTheyWinUITestsLaunchTests.swift */; };
+		E5240B4C2BFE1DEA00D0D024 /* LeagueListable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B4B2BFE1DEA00D0D024 /* LeagueListable.swift */; };
+		E5240B4E2BFE1EF000D0D024 /* TeamListable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B4D2BFE1EF000D0D024 /* TeamListable.swift */; };
+		E5240B502BFE1EFF00D0D024 /* MLBTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B4F2BFE1EFF00D0D024 /* MLBTeam.swift */; };
+		E5240B522BFE1F1700D0D024 /* NFLTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B512BFE1F1700D0D024 /* NFLTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		E5240B182BF7AD8E00D0D024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5240B1A2BF7AD8E00D0D024 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5240B1C2BF7AD8E00D0D024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5240B1F2BF7AD8E00D0D024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5240B212BF7AD8F00D0D024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5240B242BF7AD8F00D0D024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5240B262BF7AD8F00D0D024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		E5240B352BF7AD9000D0D024 /* DidTheyWinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DidTheyWinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5240B392BF7AD9000D0D024 /* DidTheyWinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidTheyWinUITests.swift; sourceTree = "<group>"; };
 		E5240B3B2BF7AD9000D0D024 /* DidTheyWinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidTheyWinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5240B4B2BFE1DEA00D0D024 /* LeagueListable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueListable.swift; sourceTree = "<group>"; };
+		E5240B4D2BFE1EF000D0D024 /* TeamListable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListable.swift; sourceTree = "<group>"; };
+		E5240B4F2BFE1EFF00D0D024 /* MLBTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLBTeam.swift; sourceTree = "<group>"; };
+		E5240B512BFE1F1700D0D024 /* NFLTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,10 @@
 		E5240B172BF7AD8E00D0D024 /* DidTheyWin */ = {
 			isa = PBXGroup;
 			children = (
+				E5240B4A2BFE1DCD00D0D024 /* Models */,
 				E5240B182BF7AD8E00D0D024 /* AppDelegate.swift */,
 				E5240B1A2BF7AD8E00D0D024 /* SceneDelegate.swift */,
 				E5240B1C2BF7AD8E00D0D024 /* ViewController.swift */,
-				E5240B1E2BF7AD8E00D0D024 /* Main.storyboard */,
 				E5240B212BF7AD8F00D0D024 /* Assets.xcassets */,
 				E5240B232BF7AD8F00D0D024 /* LaunchScreen.storyboard */,
 				E5240B262BF7AD8F00D0D024 /* Info.plist */,
@@ -125,6 +131,17 @@
 				E5240B3B2BF7AD9000D0D024 /* DidTheyWinUITestsLaunchTests.swift */,
 			);
 			path = DidTheyWinUITests;
+			sourceTree = "<group>";
+		};
+		E5240B4A2BFE1DCD00D0D024 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5240B4B2BFE1DEA00D0D024 /* LeagueListable.swift */,
+				E5240B4D2BFE1EF000D0D024 /* TeamListable.swift */,
+				E5240B4F2BFE1EFF00D0D024 /* MLBTeam.swift */,
+				E5240B512BFE1F1700D0D024 /* NFLTeam.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,6 @@
 			files = (
 				E5240B252BF7AD8F00D0D024 /* LaunchScreen.storyboard in Resources */,
 				E5240B222BF7AD8F00D0D024 /* Assets.xcassets in Resources */,
-				E5240B202BF7AD8E00D0D024 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5240B1D2BF7AD8E00D0D024 /* ViewController.swift in Sources */,
+				E5240B4E2BFE1EF000D0D024 /* TeamListable.swift in Sources */,
 				E5240B192BF7AD8E00D0D024 /* AppDelegate.swift in Sources */,
+				E5240B4C2BFE1DEA00D0D024 /* LeagueListable.swift in Sources */,
+				E5240B522BFE1F1700D0D024 /* NFLTeam.swift in Sources */,
+				E5240B502BFE1EFF00D0D024 /* MLBTeam.swift in Sources */,
 				E5240B1B2BF7AD8E00D0D024 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5240B1E2BF7AD8E00D0D024 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5240B1F2BF7AD8E00D0D024 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5240B232BF7AD8F00D0D024 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
