@@ -19,6 +19,7 @@
 		E5240B4E2BFE1EF000D0D024 /* TeamListable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B4D2BFE1EF000D0D024 /* TeamListable.swift */; };
 		E5240B502BFE1EFF00D0D024 /* MLBTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B4F2BFE1EFF00D0D024 /* MLBTeam.swift */; };
 		E5240B522BFE1F1700D0D024 /* NFLTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B512BFE1F1700D0D024 /* NFLTeam.swift */; };
+		E5240B542BFF8BE700D0D024 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5240B532BFF8BE700D0D024 /* Cache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E5240B4D2BFE1EF000D0D024 /* TeamListable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListable.swift; sourceTree = "<group>"; };
 		E5240B4F2BFE1EFF00D0D024 /* MLBTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLBTeam.swift; sourceTree = "<group>"; };
 		E5240B512BFE1F1700D0D024 /* NFLTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLTeam.swift; sourceTree = "<group>"; };
+		E5240B532BFF8BE700D0D024 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E5240B4A2BFE1DCD00D0D024 /* Models */,
+				E5240B552BFF8BEB00D0D024 /* Persistence */,
 				E5240B182BF7AD8E00D0D024 /* AppDelegate.swift */,
 				E5240B1A2BF7AD8E00D0D024 /* SceneDelegate.swift */,
 				E5240B1C2BF7AD8E00D0D024 /* ViewController.swift */,
@@ -142,6 +145,14 @@
 				E5240B512BFE1F1700D0D024 /* NFLTeam.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E5240B552BFF8BEB00D0D024 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				E5240B532BFF8BE700D0D024 /* Cache.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +287,7 @@
 			files = (
 				E5240B1D2BF7AD8E00D0D024 /* ViewController.swift in Sources */,
 				E5240B4E2BFE1EF000D0D024 /* TeamListable.swift in Sources */,
+				E5240B542BFF8BE700D0D024 /* Cache.swift in Sources */,
 				E5240B192BF7AD8E00D0D024 /* AppDelegate.swift in Sources */,
 				E5240B4C2BFE1DEA00D0D024 /* LeagueListable.swift in Sources */,
 				E5240B522BFE1F1700D0D024 /* NFLTeam.swift in Sources */,
